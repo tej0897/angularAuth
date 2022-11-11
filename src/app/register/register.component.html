@@ -1,0 +1,11 @@
+<form [formGroup]="form" (submit)="submit()">
+  <h1 class="h3 mb-3 fw-normal">Please register</h1>
+
+  <input formControlName="empID" type="number" class="form-control" placeholder="enter ID" required>
+
+  <input formControlName="empName" type="name" class="form-control" placeholder="enter your name" required>
+
+  <input formControlName="password" type="password" class="form-control" placeholder="Password" required>
+
+  <button class="w-100 btn btn-lg btn-primary" type="submit">Submit</button>
+</form>
